@@ -1,0 +1,108 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    background: whites;
+    display: flex;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+.nav-ber{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #413d41;
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgb(238, 234, 231);
+    border: 1px solid rgb(250, 250, 249);
+    flex-basis: 400px;
+    height: 450px;
+    padding: 20px 35px;
+}
+.hello{
+     backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid white;
+    border-radius: 16px;
+    box-shadow: 0 4px 300px rgb(17, 17, 17);
+    color: #232323;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 350px;
+}
+
+.calc-button-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0;
+}
+.calc-button{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: black;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 20px;
+    height: 45px;
+    cursor: pointer;
+} 
+.calc-button:hover{
+    background: rgba(255, 255, 255, 0.30);
+}
+.calc-button:active{
+    background-color: white;
+}
+.calc-button-spen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: #0b57d0;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: white;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 20px;
+    height: 45px;
+    cursor: pointer;
+}
+.calc-button-spen:hover{
+    background: #3473dabe;
+}
+.calc-button-one{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: #e5edff;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: black;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 20px;
+    height: 45px;
+    cursor: pointer;
+}
+.calc-button-one:hover{
+    background: #d3dbec;
+}
+.calc-button-one:active{
+    background-color: #ced6e9;
+}
