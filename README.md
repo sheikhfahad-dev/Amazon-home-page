@@ -1,3 +1,3 @@
 # Amazon-home-page
-this is s Amazon home page-demo
-Update README with project info Fahad
+This is a clone of the Amazon home page using HTML and CSS.
+
